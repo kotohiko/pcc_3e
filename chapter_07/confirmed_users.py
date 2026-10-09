@@ -1,6 +1,10 @@
 # Start with users that need to be verified,
 # and an empty list to hold confirmed users.
 unconfirmed_users = ['alice', 'brian', 'candace']
+print("\nThe following users have been unconfirmed:")
+print(unconfirmed_users)
+print("")
+
 confirmed_users = []
 
 # Verify each user until there are no more unconfirmed users.
@@ -14,3 +18,5 @@ while unconfirmed_users:
 print("\nThe following users have been confirmed:")
 for confirmed_user in confirmed_users:
     print(confirmed_user.title())
+print("\nThe following users have been unconfirmed:")
+print(unconfirmed_users)
